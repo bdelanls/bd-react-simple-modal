@@ -60,6 +60,22 @@ export default App;
 * **aria-describedby (string)**: ID of the element that describes the modal.
 
 
+## CSS Classes
+
+The `Modal` component uses the following CSS classes for styling. You can override these classes in your own CSS to customize the appearance of the modal.
+
+- **`.modal-backdrop`**: Styles the dark background behind the modal.
+- **`.modal`**: The main container for the modal content.
+- **`.modal-header`**: The header section of the modal.
+- **`.modal-body`**: The body section where the main content is displayed.
+- **`.modal-footer`**: Optional footer section for actions like buttons.
+- **`.modal-small`, `.modal-medium`, `.modal-large`**: Different size options for the modal.
+- **`.modal-close-button`**: Styles the close button inside the modal.
+- **`.modal-buttons`**: Styles for button groups in the modal.
+
+For more advanced customization, you can modify these classes or add new ones in your CSS.
+
+
 ## Built with TSDX
 
 This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
