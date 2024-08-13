@@ -20,7 +20,6 @@ Here is an example of how to use the Modal component:
 ```
 import React, { useState } from 'react';
 import { Modal } from 'bd-react-simple-modal';
-import 'bd-react-simple-modal/dist/index.css';
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
